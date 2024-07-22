@@ -53,13 +53,15 @@ public class Main {
         }catch (Exception e){
             System.out.println(e.getMessage().toUpperCase());
         }
-        try{
+
         //nonSubscribersPassengers
+        try{
         nonSubscribersPassengers.calculateTripcost(car2);
         }catch (Exception e){
             System.out.println(e.getMessage().toUpperCase());
         }
 
+        //Save Passengers in Array list
         ArrayList<Passenger> passengerss = new ArrayList<>();
         passengerss.add(subscribersPassengers);
         passengerss.add(nonSubscribersPassengers);

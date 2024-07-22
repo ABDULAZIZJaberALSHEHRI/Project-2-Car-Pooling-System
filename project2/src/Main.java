@@ -44,10 +44,11 @@ public class Main {
 
         NonSubscribersPassengers nonSubscribersPassengers = new NonSubscribersPassengers("Ahmed","147", car2,true);
 
-        try {
-            //calculate Trip price:
+        
+         //calculate Trip price:
 
-            //subscribers Passengers
+         //subscribers Passengers
+        try {
             subscribersPassengers.calculateTripcost(car1);
         }catch (Exception e){
             System.out.println(e.getMessage().toUpperCase());
